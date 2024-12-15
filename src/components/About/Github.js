@@ -20,7 +20,7 @@ function Github() {
   username="Gourav_vishwakarma"
   blockSize={15}
   blockMargin={5}
-  fontSize={16}
+  fontSize={16}/>
   classForValue={(value) => {
     if (!value) return "bg-gray-200"; // Light gray for empty blocks
     // Custom purple shades based on activity count
@@ -37,7 +37,7 @@ function Github() {
         return "bg-gray-200"; // Default for empty
     }
   }}
-/>
+
 
 
     </Row>
