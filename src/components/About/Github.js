@@ -7,19 +7,19 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+      Data Structures and Algorithms (DSA) Problems Solved
+      </h1>
+      <div>
+      <img src="https://leetcard.jacoblin.cool/Gourav_vishwakarma" alt="LeetCode Stats" />
+      </div>
+      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
-      {/* <LeetCodeCalendar
-        username="Ankit07kr"
-        blockSize={15}
-        blockMargin={5}
-        color="#c084f5"
-        fontSize={16}
-      /> */}
+      
       <LeetCodeCalendar
   username="Gourav_vishwakarma"
-  blockSize={15}
-  blockMargin={5}
+  blockSize={17}
+  blockMargin={6}
   fontSize={16}/>
   classForValue={(value) => {
     if (!value) return "bg-gray-200"; // Light gray for empty blocks
@@ -37,9 +37,6 @@ function Github() {
         return "bg-gray-200"; // Default for empty
     }
   }}
-
-
-
     </Row>
   );
 }

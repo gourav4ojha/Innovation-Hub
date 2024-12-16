@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import portfolio from "../../Assets/Projects/image.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import Testify from "../../Assets/Projects/Testify.png";
@@ -59,16 +59,16 @@ Implemented user registration, login, and role-based authorization with JWT-base
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={portfolio}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Portfolio"
+              description="A dynamic and user-friendly tool built with React and Bootstrap that allows users to create and customize personal portfolio websites effortlessly. This project features a sleek and responsive design, leveraging Bootstrap for styling and React for interactive functionality."
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -89,7 +89,7 @@ Implemented user registration, login, and role-based authorization with JWT-base
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
