@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import portfolio from "../../Assets/Projects/image.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import CampusRentals from "../../Assets/Projects/campusrentals.png";
 import Testify from "../../Assets/Projects/Testify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import Bgremover from "../../Assets/Projects/Bgremover.png";
@@ -27,9 +27,7 @@ function Projects() {
               isBlog={false}
               title="Testify"
               description="Developed an E-Leatning website Developed an E-Leatning website for online course purchases using HTML, CSS, JavaScript, and React.
-Implemented user registration, login, and role-based authorization with JWT-based authentication and refresh token support.
-
- online course purchases, featuring user registration, JWT-based authentication with refresh tokens, secure RESTful APIs, Stripe payment gateway."
+              Implemented user registration, login, and role-based authorization with JWT-based authentication and refresh token support. online course purchases, featuring user registration, JWT-based authentication with refresh tokens, secure RESTful APIs, Stripe payment gateway."
               ghLink="https://github.com/deadlockerz/Testify"
               demoLink="https://testify-coral.vercel.app/"
             />
@@ -48,12 +46,12 @@ Implemented user registration, login, and role-based authorization with JWT-base
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={CampusRentals}
               isBlog={false}
               title="CAMPUS-RENTALS"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"
+            // ghLink="https://github.com/soumyajit4419/Editor.io"
+            // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
@@ -63,8 +61,8 @@ Implemented user registration, login, and role-based authorization with JWT-base
               isBlog={false}
               title="Portfolio"
               description="A dynamic and user-friendly tool built with React and Bootstrap that allows users to create and customize personal portfolio websites effortlessly. This project features a sleek and responsive design, leveraging Bootstrap for styling and React for interactive functionality."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+            // ghLink="https://github.com/soumyajit4419/Plant_AI"
+            // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
